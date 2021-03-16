@@ -16,8 +16,7 @@ function b_click() {
   }
 }
 function d_click() {
-  console.log(event.key);
-  console.log(Object.prototype.toString.call(event.key))
+  console.log(event.key);  
   //const letter=document.querySelector("div[data-letter=${event.key}]"
   key = event.key;
   console.log(Object.prototype.toString.call(key))
